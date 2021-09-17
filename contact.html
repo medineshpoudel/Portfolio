@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Dinesh Poudel</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <h1 class="logo">
+        <div class="menu-wrap">
+          <input type="checkbox" class="toggler" />
+          <div class="hamburger"><div></div></div>
+          <div class="menu">
+            <div>
+              <div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </h1>
+      <div class="smooth">
+        <a href="./index.html"><i class="fas fa-times"></i></a>
+        <a href="#"><i class="fas fa-undo-alt"></i></a>
+      </div>
+    </nav>
+    <!-- Section A: Contact Form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="Enter Message"
+              name="message"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="info-container">
+        <div class="contact-info">
+          <div class="contact-info-items">
+            <i class="fas fa-phone"></i>
+            <h4>Phone</h4>
+            <p>You can reach me thourgh phone</p>
+            <span> +977-9818862156</span>
+          </div>
+          <div class="contact-info-items">
+            <i class="fas fa-envelope"></i>
+            <h4>Email</h4>
+            <p>Email me for any queries</p>
+            <span> dineshpoudel58@gmail.com</span>
+          </div>
+          <div class="contact-info-items">
+            <i class="fas fa-location"></i>
+            <h4>Location</h4>
+            <p>Manamaiju , Kathmandu, Nepal</p>
+            <span> View on google map</span>
+          </div>
+        </div>
+
+        <!-- <form class="info-form" action="#">
+               <div>
+               <input type="text" name="name" id = "name" placeholder="Enter Name:">
+               <input type="email" name="email" id="email" placeholder="Enter Email:">
+               <input type="text" name="subject" id = "subject" placeholder="Enter Subject:">
+               </div>
+               <div>
+                 <textarea name="message" id="message" cols="90" rows="10" placeholder="Enter Message:"></textarea>
+                 <a href="#" class="btn">Send Message</a>
+               </div>
+             </form> -->
+      </div>
+    </section>
+  </body>
+</html>
